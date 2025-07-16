@@ -253,7 +253,8 @@
 .cart-count{
     position: absolute;
     top: 2px;
-    font-size: 12px;
+    font-size: 15px;
+    color: #f08804;
 }
 #cart-section i {
     position: relative;
@@ -312,4 +313,37 @@
 }
 .sub-navbar-text:hover{
     border-color: white;
+}
+#hero-banner{
+    position: relative;
+    overflow: hidden;
+}
+.hero-image {
+  background-image: url("images-logos/hero-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px; /* match Amazon’s approx hero height */
+  width: 100%;
+}
+#hero-text{
+    text-align: center;
+    width: 1430px;
+    height: 40px;
+    position: relative;
+    bottom: 350px;
+    left: 20px;
+    background-color: #f5f6f6;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0f1111;
+    padding: 10px 14px 10px 14px;
+    font-weight: 500;
+}
+#hero-text a{
+    text-decoration: none;
+    color: #2162A1;
+}
+#hero-text a:hover{
+    text-decoration: underline;
+    color: #0c3353;
 }
