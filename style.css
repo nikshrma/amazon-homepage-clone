@@ -365,11 +365,14 @@
 
 main {
     background-color: #e3e6e6;
+    min-height: auto;
+    height: 1273px;
 }
 
 #hero-banner {
     position: relative;
     overflow: hidden;
+    z-index: 0;
 }
 
 .hero-image {
@@ -420,6 +423,8 @@ main {
     justify-content: center;
     align-items: center;
     z-index: 2;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #first-product-grid {
@@ -465,5 +470,41 @@ main {
 }
 .product-grid1 a{
     text-decoration: none;
+    color: #2162A1;
+}
+#bottom-sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eeeeee;
+    position: relative;
+    top: -480px;
+    background-color: white;
+    height: 144px;
+}
+#bottom-sign-in-main{
+    text-align: center;
+}
+#bottom-sign-in-main h2{
+    padding-bottom: 4px;
+    padding-top: 15px ;
+}
+#bottom-sign-in-button button{
+    width:235px;
+    height: 30px;
+    border-radius: 9999px;
+    border: none;
+    background-color: #ffd814;
+    margin: 4px 0px 4px 0px;
+}
+#bottom-sign-in-main span{
+    font-size: 11px;
+}
+
+#bottom-sign-in-main a:hover{
+    text-decoration: underline;
+    color: #0c3353;
+}
+#bottom-sign-in-main a{
     color: #2162A1;
 }
